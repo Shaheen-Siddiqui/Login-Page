@@ -1,0 +1,2 @@
+body{align-items:center;display:flex;justify-content:center}.outerDiv{border:1px solid grey;padding:3rem;width:30rem}@media (max-width:767px){.outerDiv{display:flex;flex-wrap:wrap;width:20rem}}@media (max-width:375){.outerDiv{display:flex;flex-wrap:wrap;width:10rem}}
+/*# sourceMappingURL=main.6f3cae70.css.map*/
