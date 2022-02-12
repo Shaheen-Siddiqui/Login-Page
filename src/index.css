@@ -1,0 +1,30 @@
+body{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outerDiv{
+  width: 30rem;
+  border: 1px solid grey;
+  padding: 3rem;
+}
+
+@media (max-width: 767px) {
+  .outerDiv{
+  display:flex;
+  width: 20rem;
+  flex-wrap: wrap;
+
+  }
+
+}
+
+@media (max-width:375) {
+  
+  .outerDiv{
+    display:flex;
+    width: 10rem;
+    flex-wrap: wrap;}
+}
